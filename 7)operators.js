@@ -306,6 +306,24 @@ const b = 3;
 console.log(a & b);  // Output: 2 (Binary: 10 & 11 = 10)
 console.log(a | b); // Output: 3 (Binary: 10 | 11 = 11)
 console.log(a ^ b); // Output: 1 (Binary: 10 ^ 11 = 01)
+
+/* o/p is 2 for 1 becasue
+  0010
+  0011
+-------- i.e. 1 1 true true means only true
+  0010   here the value is 0010 which means 2 that's why o/p is 2
+
+//similarly for another eg
+const a=12;//1100 (binary number)
+const b=24;//11000
+console.log(a&b);//here o/p is 8 because
+/*
+0000 1100 // that 4 zero la summa value kaaga
+0001 1000
+----------
+0000 1000
+*/
+//similarly do for all other bitwise op ||,~,...*/
 //-------------------------------------------
 // 15. Increment and Decrement Operators
 /*My Understanding:
