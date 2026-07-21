@@ -47,3 +47,10 @@ console.log(a + b);
 // Output: 50
 // Since both values are numbers,
 // JavaScript performs addition.
+
+/*Difference between Type Conversion and Type Coercion
+| Type Conversion                                | Type Coercion                                  |
+| ---------------------------------------------- | ---------------------------------------------- |
+| Done manually by the programmer.               | Done automatically by JavaScript.              |
+| Uses `String()`, `Number()`, `Boolean()`, etc. | Happens during operations like `+`, `==`, etc. |
+| Example: `Number("25")`                        | Example: `"25" + 25`                           | */
